@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 require 'resolv-replace'
 source "https://rubygems.org"
-
+gem 'jekyll-compose', group: [:jekyll_plugins]
 gem "jekyll-theme-chirpy", "~> 5.0", ">= 5.0.2"
 
 group :test do
