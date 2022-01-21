@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+require 'resolv-replace'
 source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 5.0", ">= 5.0.2"
